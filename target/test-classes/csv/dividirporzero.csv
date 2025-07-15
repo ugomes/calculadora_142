@@ -1,0 +1,7 @@
+num1,num2,resultadoEsperado
+6,0,Divisão por zero não é permitida.
+10,0,Divisão por zero não é permitida.
+7,0,Divisão por zero não é permitida.
+-6,0,Divisão por zero não é permitida.
+-10,0,Divisão por zero não é permitida.
+-1,0,Divisão por zero não é permitida.

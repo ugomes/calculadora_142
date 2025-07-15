@@ -1,0 +1,103 @@
+# Testes de Unidade - Calculadora
+
+Este projeto contém testes de unidade para as operações básicas de uma calculadora, utilizando **JUnit 5** e **Maven**. Os testes cobrem as operações de soma, subtração, multiplicação e divisão, incluindo cenários de erro como divisão por zero. Também são utilizados testes orientados a dados (DDT) com massas de dados em linha e arquivos CSV.
+
+## Estrutura do Projeto
+
+```
+calculadora_142/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── iterasys/
+│   │               └── Main.java
+│   └── test/
+│       └── java/
+│           └── TestCalculadora.java
+│       └── resources/
+│           └── csv/
+│               ├── somar.csv
+│               ├── subtrair.csv
+│               ├── multiplicar.csv
+│               └── dividir.csv
+├── pom.xml
+```
+
+## Tecnologias Utilizadas
+
+- **Java 17**
+- **JUnit 5 (Jupiter)**
+- **Maven**
+- **Hamcrest** (para matchers, se necessário)
+
+## Como Executar os Testes
+
+1. **Clone o repositório e acesse a pasta do projeto:**
+   ```sh
+   git clone <url-do-repositorio>
+   cd calculadora_142
+   ```
+
+2. **Execute os testes com Maven:**
+   ```sh
+   mvn test
+   ```
+
+3. **Gere o relatório HTML dos testes:**
+   ```sh
+   mvn surefire-report:report
+   ```
+   O relatório estará disponível em `target/site/surefire-report.html`.
+
+## Tipos de Testes
+
+### Testes Unitários Simples
+
+Testam individualmente cada operação da calculadora:
+- Soma
+- Subtração
+- Multiplicação
+- Divisão
+- Divisão por zero (tratamento de erro)
+
+### Testes com Massa de Dados (DDT)
+
+Utilizam o recurso de **@ParameterizedTest** do JUnit para validar múltiplos cenários:
+- **@CsvSource:** Massa de dados definida diretamente no código.
+- **@CsvFileSource:** Massa de dados importada de arquivos CSV localizados em `src/test/resources/csv/`.
+
+Exemplo de teste com arquivo CSV:
+```java
+@ParameterizedTest
+@CsvFileSource(resources = "/csv/somar.csv", numLinesToSkip = 1, delimiter = ',')
+@DisplayName("Teste de soma usando massa de dados do arquivo CSV")
+public void testSomarCSV(float num1, float num2, float resultadoEsperado) {
+    float resultadoObtido = Main.somar(num1, num2);
+    assertEquals(resultadoEsperado, resultadoObtido);
+}
+```
+
+## Organização dos Arquivos CSV
+
+Cada arquivo CSV contém os dados de entrada e o resultado esperado para cada operação. Exemplo de `somar.csv`:
+
+```
+num1,num2,resultadoEsperado
+5,3,8
+10,2,12
+-5,-3,-8
+```
+
+## Boas Práticas Adotadas
+
+- **Cobertura de cenários positivos e negativos**
+- **Testes automatizados e reprodutíveis**
+- **Separação de dados de teste em arquivos externos**
+- **Relatórios automáticos de execução**
+
+## Observações
+
+- Certifique-se de que os arquivos CSV estejam corretamente localizados em `src/test/resources/csv/`.
+- Os nomes das classes de teste devem seguir o padrão `Test*.java` para serem reconhecidos pelo Maven Surefire.
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestCalculadora" time="0.19" tests="41" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Estudo_ QA\Iterasys\calculadora_142\target\test-classes;D:\Estudo_ QA\Iterasys\calculadora_142\target\classes;C:\Users\uelto\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\uelto\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\uelto\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\uelto\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\uelto\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\uelto\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\uelto\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\uelto\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\uelto\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\uelto\AppData\Local\Temp\surefire4321696611325953784\surefirebooter-20250714205450910_3.jar C:\Users\uelto\AppData\Local\Temp\surefire4321696611325953784 2025-07-14T20-54-50_792-jvmRun1 surefire-20250714205450910_1tmp surefire_0-20250714205450910_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Estudo_ QA\Iterasys\calculadora_142\target\test-classes;D:\Estudo_ QA\Iterasys\calculadora_142\target\classes;C:\Users\uelto\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\uelto\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\uelto\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\uelto\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\uelto\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\uelto\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\uelto\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\uelto\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\uelto\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\uelto"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Estudo_ QA\Iterasys\calculadora_142"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\uelto\AppData\Local\Temp\surefire4321696611325953784\surefirebooter-20250714205450910_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="uelto"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\uelto\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\uelto\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="D:\Estudo_ QA\Iterasys\calculadora_142"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\k6\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\uelto\AppData\Local\Android\Sdk\bin;C:\Users\uelto\AppData\Local\Android\Sdk\emulator;C:\Users\uelto\AppData\Local\Android\Sdk\platform-tools;C:\Users\uelto\AppData\Local\Android\Sdk\tools;C:\Users\uelto\AppData\Local\Android\Sdk\tools\bin;;c:\Users\uelto\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\uelto\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\uelto\AppData\Local\Programs\Python\Python313\;C:\Users\uelto\AppData\Local\Microsoft\WindowsApps;C:\Users\uelto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.3\bin;;C:\Users\uelto\AppData\Roaming\npm;C:\Users\uelto\AppData\Local\Programs\Windsurf\bin;C:\Users\uelto\AppData\Local\GitHubDesktop\bin;C:\Users\uelto\AppData\Local\Programs\cursor\resources\app\bin;c:\Users\uelto\.vscode\extensions\ms-python.debugpy-2025.10.0-win32-x64\bundled\scripts\noConfigScripts;c:\Users\uelto\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\uelto\.vscode\extensions\d-biehl.robotcode-1.5.0\bundled\scripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testSomarCSV(float, float, float)[1]" classname="TestCalculadora" time="0.049">
+    <system-out><![CDATA[A soma de 5.0 e 3.0 é: 8.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarCSV(float, float, float)[2]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A soma de 10.0 e 2.0 é: 12.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarCSV(float, float, float)[3]" classname="TestCalculadora" time="0.0">
+    <system-out><![CDATA[A soma de 7.0 e 5.0 é: 12.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarCSV(float, float, float)[4]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A soma de -5.0 e -3.0 é: -8.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarCSV(float, float, float)[5]" classname="TestCalculadora" time="0.0">
+    <system-out><![CDATA[A soma de -7.0 e 3.0 é: -4.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarCSV(float, float, float)[6]" classname="TestCalculadora" time="0.002">
+    <system-out><![CDATA[A soma de -1.0 e -1.0 é: -2.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtrairComMassa(float, float, float)[1]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A subtração de 5.0 e 3.0 é: 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtrairComMassa(float, float, float)[2]" classname="TestCalculadora" time="0.0">
+    <system-out><![CDATA[A subtração de 10.0 e 2.0 é: 8.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtrairComMassa(float, float, float)[3]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A subtração de 7.0 e 5.0 é: 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtrairComMassa(float, float, float)[4]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A subtração de -5.0 e -3.0 é: -2.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtrairComMassa(float, float, float)[5]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A subtração de -7.0 e 3.0 é: -10.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtrairComMassa(float, float, float)[6]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A subtração de -1.0 e -1.0 é: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtrair" classname="TestCalculadora" time="0.003">
+    <system-out><![CDATA[A subtração de 5.0 e 3.0 é: 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomar" classname="TestCalculadora" time="0.0">
+    <system-out><![CDATA[A soma de 5.0 e 3.0 é: 8.0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarComMassa(float, float, float)[1]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A multiplicação de 5.0 e 3.0 é: 15.0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarComMassa(float, float, float)[2]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A multiplicação de 10.0 e 2.0 é: 20.0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarComMassa(float, float, float)[3]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A multiplicação de 7.0 e 5.0 é: 35.0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarComMassa(float, float, float)[4]" classname="TestCalculadora" time="0.002">
+    <system-out><![CDATA[A multiplicação de -5.0 e -3.0 é: 15.0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarComMassa(float, float, float)[5]" classname="TestCalculadora" time="0.0">
+    <system-out><![CDATA[A multiplicação de -7.0 e 3.0 é: -21.0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarComMassa(float, float, float)[6]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A multiplicação de -1.0 e -1.0 é: 1.0
+]]></system-out>
+  </testcase>
+  <testcase name="testDividirPorZeroComMassa(float, float, String)[1]" classname="TestCalculadora" time="0.004"/>
+  <testcase name="testDividirPorZeroComMassa(float, float, String)[2]" classname="TestCalculadora" time="0.001"/>
+  <testcase name="testDividirPorZeroComMassa(float, float, String)[3]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirPorZeroComMassa(float, float, String)[4]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirPorZeroComMassa(float, float, String)[5]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirPorZeroComMassa(float, float, String)[6]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testSomarComMassa(float, float, float)[1]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A soma de 5.0 e 3.0 é: 8.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarComMassa(float, float, float)[2]" classname="TestCalculadora" time="0.0">
+    <system-out><![CDATA[A soma de 10.0 e 2.0 é: 12.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarComMassa(float, float, float)[3]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A soma de 7.0 e 5.0 é: 12.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarComMassa(float, float, float)[4]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A soma de -5.0 e -3.0 é: -8.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarComMassa(float, float, float)[5]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A soma de -7.0 e 3.0 é: -4.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSomarComMassa(float, float, float)[6]" classname="TestCalculadora" time="0.001">
+    <system-out><![CDATA[A soma de -1.0 e -1.0 é: -2.0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicar" classname="TestCalculadora" time="0.002">
+    <system-out><![CDATA[A multiplicação de 5.0 e 3.0 é: 15.0
+]]></system-out>
+  </testcase>
+  <testcase name="testDividirComMassa(float, float, float)[1]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirComMassa(float, float, float)[2]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirComMassa(float, float, float)[3]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirComMassa(float, float, float)[4]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirComMassa(float, float, float)[5]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirComMassa(float, float, float)[6]" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividirPorZero" classname="TestCalculadora" time="0.0"/>
+  <testcase name="testDividir" classname="TestCalculadora" time="0.001"/>
+</testsuite>

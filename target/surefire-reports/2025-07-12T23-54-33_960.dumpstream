@@ -1,0 +1,5 @@
+# Created at 2025-07-12T23:54:34.118
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Estudo_ QA\Iterasys\calculadora_142\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
